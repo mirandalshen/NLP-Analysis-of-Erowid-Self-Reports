@@ -1,4 +1,4 @@
-# Overview: NLP-Analysis-of-Erowid-Self-Reports
+# Overview: NLP-Erowid
 
 In the field of cognitive sciences, the subjective experience of individuals has often been overlooked in favor of objective measures. However, the subjective experience holds significant potential in the study of drugs. While empirical measures such as physical effects and brain activity are commonly used to analyze drug effects, first-hand accounts of users are rarely collected or comprehensively interpreted. This gap can be addressed by systematically characterizing the subjective effects of psychoactive drugs through the use of natural language processing (NLP) methods applied to Erowid experience reports.
 
