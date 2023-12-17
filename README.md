@@ -33,7 +33,9 @@ We utilized a two-step process integrating logistic regression and vector embedd
 
 <img width="624" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/d13776b3-123a-4a68-bf7a-731327890fdc">
 
-Below, we display the rates of different categories of subjective effect sentences across psychoactive drugs as a heatmap.
+## Findings:
+
+From there, we performed an OpenAI GPT-4 language model API call for each sentence to label subjective effect sentences by categories inspired by the Effect Index. Below, we display the rates of different categories of subjective effect sentences across psychoactive drugs as a heatmap.
 
 <img width="653" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/7fff2d7d-7d87-4857-8674-e020369ceac1">
 
