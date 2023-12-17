@@ -41,4 +41,4 @@ This analysis has been extended to analyze correlations between common mental he
 
 <img width="634" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/4be1a10f-0806-4c0f-ac30-d699d17453f0">
 
-<img width="640" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/d9504821-d61c-477d-815f-a664e9a8151d">
+<img width="647" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/745e04f3-35ef-45f8-bf5d-c3416883c8ca">
