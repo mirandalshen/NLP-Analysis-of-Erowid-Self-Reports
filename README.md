@@ -41,6 +41,10 @@ From there, we performed an OpenAI GPT-4 language model API call for each senten
 
 This analysis has been extended to analyze correlations between common mental health outcomes and substance use, as seen in the two figures below.
 
+Positive mental health outcomes:
+
 <img width="634" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/4be1a10f-0806-4c0f-ac30-d699d17453f0">
+
+Negative mental health outcomes:
 
 <img width="647" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/745e04f3-35ef-45f8-bf5d-c3416883c8ca">
