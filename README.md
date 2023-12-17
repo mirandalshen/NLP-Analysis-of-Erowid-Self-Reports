@@ -16,11 +16,9 @@ This project was headed by Miranda Shen in collaboration with Sean Noah, UC Berk
 
 Upon cleaning the 100 randomly sampled reports and applying TF-IDF, UMAP was applied to create the 2-dimensional graph below.
 
-![image](https://github.com/mirandalshen/NLP-Analysis-of-Erowid-Self-Reports/assets/86203932/06ae0f59-ccc8-4752-b3d8-2bec5b609e7a)
+<img width="635" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/db3d72ca-590a-4608-b0f5-752c78354a39">
 
 Using the elbow method to produce an optimal number of clusters, K-means was then applied to create 6 clusters of drugs.
-
-![image](https://github.com/mirandalshen/NLP-Analysis-of-Erowid-Self-Reports/assets/86203932/7d64ff85-f786-4e40-b883-b88c940660e0)
 
 This revealed the following:
 
@@ -31,46 +29,17 @@ This revealed the following:
 - Cluster 5 contains the following classes: ['MDA' '5-MeO-MIPT' '5-MeO-DIPT' '2C-E']
 - Cluster 6 contains the following classes: ['Salvia' 'Ayahuasca' '2C-B' '25I-NBOMe']
 
-Combining the GPT API dataframe of subjective effect classifications showed how each cluster varies in subjective effects.
+We utilized a two-step process integrating logistic regression and vector embeddings. First, we created the logistic regression model designed to identify sentences that depict subjective effects by utilizing vector embeddings. Then, we employed an OpenAI GPT-4 language model API call for each sentence, specifically designed to label sentences related to subjective effects. This model resulted in the following findings.
 
-**Cluster 1:**
-- cognitive distortion: 13.58%
-- visual distortion: 12.29%
-- euphoria: 10.14%
-- ego dissolution: 8.68%
-- cognitive enhancement: 8.67%
+<img width="624" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/d13776b3-123a-4a68-bf7a-731327890fdc">
 
-**Cluster 2:**
-- cognitive distortion: 13.93%
-- visual distortion: 12.49%
-- cognitive enhancement: 9.18%
-- euphoria: 9.11%
-- ego dissolution: 6.00%
+Below, we display the rates of different categories of subjective effect sentences across psychoactive drugs as a heatmap.
 
-**Cluster 3:**
-- visual distortion: 16.31%
-- cognitive distortion: 12.24%
-- ego dissolution: 11.90%
-- insight: 9.27%
-- cognitive enhancement: 6.77%
+<img width="653" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/7fff2d7d-7d87-4857-8674-e020369ceac1">
 
-**Cluster 4:**
-- cognitive enhancement: 17.35%
-- euphoria: 12.96%
-- cognitive distortion: 12.67%
-- sociability enhancement: 10.09%
-- dysphoria: 6.13%
+This analysis has been extended to analyze correlations between common mental health outcomes and substance use, as seen in the two figures below.
 
-**Cluster 5:**
-- visual distortion: 13.45%
-- cognitive distortion: 13.37%
-- cognitive enhancement: 11.30%
-- euphoria: 10.08%
-- visual enhancement: 6.34%
+<img width="634" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/4be1a10f-0806-4c0f-ac30-d699d17453f0">
 
-**Cluster 6:**
-- visual distortion: 12.74%
-- cognitive distortion: 12.35%
-- ego dissolution: 10.25%
-- insight: 9.03%
-- cognitive enhancement: 7.37%
+<img width="647" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/d24c1365-581b-40aa-8c95-1f82742e231d">
+
