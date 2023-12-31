@@ -25,9 +25,13 @@ A two-step process integrating logistic regression and vector embeddings was emp
 
 <img width="635" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/db3d72ca-590a-4608-b0f5-752c78354a39">
 
-Positive Mental Health Outcomes: <img width="634" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/4be1a10f-0806-4c0f-ac30-d699d17453f0">
+Positive Mental Health Outcomes: 
 
-Negative Mental Health Outcomes: <img width="647" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/745e04f3-35ef-45f8-bf5d-c3416883c8ca">
+<img width="634" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/4be1a10f-0806-4c0f-ac30-d699d17453f0">
+
+Negative Mental Health Outcomes: 
+
+<img width="647" alt="image" src="https://github.com/mirandalshen/NLP-Erowid/assets/86203932/745e04f3-35ef-45f8-bf5d-c3416883c8ca">
 
 ## Acknowledgments
 We appreciate the support and collaboration of Earth and Fire Erowid for generously providing access to the narrative reports and engaging in discussions that greatly enriched this study.
